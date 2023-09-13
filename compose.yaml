@@ -29,6 +29,8 @@ services:
       - ".:/project"
     networks:
       - hznet
+    profiles:
+      - disabled
 
 networks:
   hznet: 
